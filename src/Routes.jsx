@@ -25,7 +25,7 @@ const Routes = () => {
 			<Route path="/teams" element={<Teams />} />
 			<Route path="/inventario" element={<Inventario />} />
 
-			<Route path="*" element={<Users />} />
+			<Route path="/" element={<Users />} />
 		</ReactRoutes>
 	);
 };

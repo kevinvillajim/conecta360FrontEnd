@@ -16,7 +16,7 @@ export const sideBarOptions = {
 		{link: "conecta360FrontEnd/#/citas", icon: "menu_book", name: "Citas"},
 		{link: "conecta360FrontEnd/#/clientes", icon: "hail", name: "Clientes"},
 		{
-			link: "/#/proveedores",
+			link: "conecta360FrontEnd/#/proveedores",
 			icon: "local_shipping",
 			name: "Proveedores",
 		},
