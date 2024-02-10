@@ -1,37 +1,37 @@
 export const sideBarOptions = {
 	admin: [
 		{
-			link: "conecta360FrontEnd/#/usuarios",
+			link: "/usuarios",
 			icon: "co_present",
 			name: "Usuarios",
 		},
-		{link: "conecta360FrontEnd/#/teams", icon: "groups", name: "Teams"},
-		{link: "conecta360FrontEnd/#/metas", icon: "military_tech", name: "Metas"},
-		{link: "conecta360FrontEnd/#/tareas", icon: "checklist", name: "Tareas"},
+		{link: "/teams", icon: "groups", name: "Teams"},
+		{link: "/metas", icon: "military_tech", name: "Metas"},
+		{link: "/tareas", icon: "checklist", name: "Tareas"},
 		{
-			link: "conecta360FrontEnd/#/finanzas",
+			link: "/finanzas",
 			icon: "attach_money",
 			name: "Finanzas",
 		},
-		{link: "conecta360FrontEnd/#/citas", icon: "menu_book", name: "Citas"},
-		{link: "conecta360FrontEnd/#/clientes", icon: "hail", name: "Clientes"},
+		{link: "/citas", icon: "menu_book", name: "Citas"},
+		{link: "/clientes", icon: "hail", name: "Clientes"},
 		{
-			link: "conecta360FrontEnd/#/proveedores",
+			link: "/proveedores",
 			icon: "local_shipping",
 			name: "Proveedores",
 		},
 		{
-			link: "conecta360FrontEnd/#/productos",
+			link: "/productos",
 			icon: "package_2",
 			name: "Productos",
 		},
 		{
-			link: "conecta360FrontEnd/#/inventario",
+			link: "/inventario",
 			icon: "inventory_2",
 			name: "Inventario",
 		},
 		{
-			link: "conecta360FrontEnd/#/proformas",
+			link: "/proformas",
 			icon: "request_quote",
 			name: "Proformas",
 		},
