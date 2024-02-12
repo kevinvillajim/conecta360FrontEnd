@@ -9,6 +9,7 @@ import Inventario from "./view/admin/Inventario";
 import Finanzas from "./view/admin/Finanzas";
 import Metas from "./view/admin/Metas";
 import Citas from "./view/admin/Citas";
+import Proformas from "./view/admin/Proformas";
 
 const Routes = () => {
 	return (
@@ -24,7 +25,7 @@ const Routes = () => {
 			<Route path="/productos" element={<Productos />} />
 			<Route path="/teams" element={<Teams />} />
 			<Route path="/inventario" element={<Inventario />} />
-
+			<Route path="/proformas" element={<Proformas />} />
 			<Route path="/" element={<Users />} />
 		</ReactRoutes>
 	);
