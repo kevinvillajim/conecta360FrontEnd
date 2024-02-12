@@ -24,7 +24,7 @@ function Teams() {
 		defaultCols.push(col);
 	});
 
-	const asesores = all.users.filter((user) => user.id_rol === 3);
+	const asesores = all.users.filter((user) => user.id_rol === 3 || 4);
 
 	const defaultTasks = [];
 	asesores.map((asesor) => {
